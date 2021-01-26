@@ -66,7 +66,6 @@ class BurgerBuilder extends Component {
     );
 
     if (this.props.ings) {
-      console.log(this.props.ings);
       burger = (
         <Fragment>
           <Burger ingredients={this.props.ings} />
